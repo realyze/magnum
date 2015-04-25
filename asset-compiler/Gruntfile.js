@@ -60,7 +60,7 @@ module.exports = function(grunt) {
       }
     },
 
-    'ghost_location': '../../Ghost/',
+    'ghost_location': '/var/www/ghost/',
     'ghost_theme_name': 'magnum',
 
   });
