@@ -1,3 +1,7 @@
+@font-face {
+  font-family: CabinSketch;
+  src: url("/assets/fonts/CabinSketch-Regular.otf") format("opentype");
+}
 pre.prettyprint {
   display: block;
   background-color: #1B2426;
@@ -322,7 +326,7 @@ input[type="text"] {
   padding: 2.69666667em 8.09em;
   margin-bottom: 2.0225em;
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.1);
-  border-radius: 2px;
+  border-radius: 10px;
 }
 .article_magnum  a,
 .article_magnum a:link,
@@ -383,7 +387,7 @@ a.btn.icon-gplus {
   padding: 2.69666667em 8.09em;
   margin-bottom: 2.0225em;
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.1);
-  border-radius: 2px;
+  border-radius: 10px;
   background: white;
   overflow: hidden;
   text-align: center;
@@ -468,6 +472,10 @@ footer a.subscribe_magnum {
 }
 .footertext_magnum {
   font-size: 0.809em;
+}
+.fb-like {
+  margin-top: 1.5em;
+  margin-bottom: 1.5em;
 }
 .fb-comments,
 .fb-comments > span,
